@@ -87,4 +87,10 @@ The dataset contains large-scale time-series data of electricity consumption fro
      - Time-based features and consumption patterns
 
 - Demonstrated the effectiveness of machine learning for energy forecasting
+
+
+📌 Conclusion
+
+This project demonstrates how machine learning and data analytics can be effectively applied to predict building energy consumption. By leveraging time-series analysis, weather data, and advanced regression models, accurate predictions can be achieved to support energy efficiency, cost optimization, and sustainable building management.
+
    
