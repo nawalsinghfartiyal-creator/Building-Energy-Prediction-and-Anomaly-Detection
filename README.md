@@ -1,18 +1,25 @@
 # Building Energy Consumption Prediction using Machine Learning
 📌 Project Overview
 
-This project focuses on analyzing building energy consumption patterns and developing accurate machine learning models to predict electricity usage. The Building Data Genome Project 2 dataset is used to study the relationship between energy consumption, weather conditions, and time-based features.
-The project implements a complete end-to-end data science workflow, including data preprocessing, exploratory data analysis (EDA), feature engineering, and machine learning model development. An advanced XGBoost regression model achieved excellent predictive performance with an R² score of 0.95
+This project focuses on analyzing building energy consumption patterns and developing a complete machine learning pipeline for energy prediction and anomaly detection using the Building Data Genome Project 2 dataset. The study explores the relationship between energy usage, weather conditions, and time-based features to gain meaningful insights into building energy behavior.
+The project implements an end-to-end data science workflow, including data preprocessing, exploratory data analysis (EDA), feature engineering, predictive modeling, and anomaly detection. An Isolation Forest model was used to detect abnormal energy consumption patterns that may indicate system faults, inefficiencies, or sensor errors. Additionally, an advanced XGBoost regression model was developed for energy consumption prediction, achieving excellent performance with an R² score of 0.95
 
 
 🎯 Objectives
 
 1.Analyze building electricity consumption patterns
+
 2.Perform data cleaning and preprocessing
+
 3.Conduct exploratory data analysis (EDA)
+
 4.Engineer meaningful features from time-series and weather data
-5.Build and evaluate machine learning models for energy prediction
-6.Compare baseline and advanced regression models
+
+5.Anomaly Detection
+
+6.Build and evaluate machine learning models for energy prediction
+
+7.Compare baseline and advanced regression models
 
 📊 Dataset
 
@@ -56,12 +63,19 @@ The dataset contains large-scale time-series data of electricity consumption fro
     * Extracted time-based features (hour, day, month, weekday)
     * Created weather interaction features
 
-5. Model Development
+5. Anomaly Detection
+
+   * Implemented **Isolation Forest** to detect abnormal energy usage patterns
+   * Identified unusual spikes and drops that may represent system faults, energy inefficiencies, or sensor errors
+   * Visualized anomalies using time-series and scatter plots.
+
+
+6. Model Development
 
     * Baseline Model: Linear Regression
     * Advanced Model: XGBoost Regression
 
-6. Model Evaluation
+7. Model Evaluation
 
     * Performance metric: R² Score
     * XGBoost achieved R² = 0.95
@@ -87,10 +101,11 @@ The dataset contains large-scale time-series data of electricity consumption fro
      - Time-based features and consumption patterns
 
 - Demonstrated the effectiveness of machine learning for energy forecasting
+- Accurate detection of abnormal energy consumption behavior
 
 
 📌 Conclusion
 
-This project demonstrates how machine learning and data analytics can be effectively applied to predict building energy consumption. By leveraging time-series analysis, weather data, and advanced regression models, accurate predictions can be achieved to support energy efficiency, cost optimization, and sustainable building management.
+This project demonstrates a complete **energy intelligence pipeline** by integrating **energy forecasting and anomaly detection**. It provides valuable insights into building energy behavior and highlights how machine learning can support **energy optimization, fault detection, and operational efficiency** in real-world building management systems
 
    
