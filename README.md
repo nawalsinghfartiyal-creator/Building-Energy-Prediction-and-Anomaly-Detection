@@ -1,11 +1,12 @@
 # Building Energy Prediction and Anomaly Detection
-📌 Project Overview
+
+## 📌 Project Overview
 
 This project focuses on analyzing building energy consumption patterns and developing a complete machine learning pipeline for energy prediction and anomaly detection using the Building Data Genome Project 2 dataset. The study explores the relationship between energy usage, weather conditions, and time-based features to gain meaningful insights into building energy behavior.
 The project implements an end-to-end data science workflow, including data preprocessing, exploratory data analysis (EDA), feature engineering, predictive modeling, and anomaly detection. An Isolation Forest model was used to detect abnormal energy consumption patterns that may indicate system faults, inefficiencies, or sensor errors. Additionally, an advanced XGBoost regression model was developed for energy consumption prediction, achieving excellent performance with an R² score of 0.95
 
 
-🎯 Objectives
+## 🎯 Objectives
 
 1. Analyze building electricity consumption patterns
 
@@ -21,7 +22,7 @@ The project implements an end-to-end data science workflow, including data prepr
 
 7. Compare baseline and advanced regression models
 
-📊 Dataset
+## 📊 Dataset
 
 Building Data Genome Project 2
 The dataset contains large-scale time-series data of electricity consumption from multiple buildings, along with weather information.
@@ -40,7 +41,7 @@ The dataset contains large-scale time-series data of electricity consumption fro
      * Data normalization and transformation
 
 
-⚙️ Methodology
+## ⚙️ Methodology
 
 1. Data Loading & Integration
 
@@ -81,30 +82,30 @@ The dataset contains large-scale time-series data of electricity consumption fro
     * XGBoost achieved R² = 0.95
 
 
-🛠️ Technologies Used
-1. Python
-2. Pandas
-3. NumPy
-4. Matplotlib
-5. Seaborn
-6. Scikit-learn
-7. Jupyter Notebook
-8.XGBoost
+## 🛠️ Technologies Used
+1. **Python**
+2. **Pandas**
+3. **NumPy**
+4. **Matplotlib**
+5. **Seaborn**
+6. **Scikit-learn**
+7. **Jupyter Notebook**
+8.**XGBoost**
 
 
-📈 Results
+## 📈 Results
 - Successfully modeled complex building energy consumption patterns
-- XGBoost regression achieved R² score of 0.95
+- XGBoost regression achieved **_R² score of 0.95_**
 - Identified strong relationships between:
 
   - Energy usage and temperature
-     - Time-based features and consumption patterns
+  - Time-based features and consumption patterns
 
 - Demonstrated the effectiveness of machine learning for energy forecasting
 - Accurate detection of abnormal energy consumption behavior
 
 
-📌 Conclusion
+## 📌 Conclusion
 
 This project demonstrates a complete **energy intelligence pipeline** by integrating **energy forecasting and anomaly detection**. It provides valuable insights into building energy behavior and highlights how machine learning can support **energy optimization, fault detection, and operational efficiency** in real-world building management systems
 
